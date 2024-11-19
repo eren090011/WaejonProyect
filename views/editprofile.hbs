@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../EstilospagePrincipal.css">
+    <link rel="stylesheet" href="../EstiloEditPerfil.css">
+</head>
+
+<body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+
+  <div>
+    <nav class="navbar">
+
+      <div class="container-fluid justify-content-between">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+              <img src="../Imagenes/logo.png" alt="Logo" width="50" height="30" class="d-inline-block align-text-top">
+              Wanjeon
+            </a>
+        </nav>
+
+        <nav class="navbar navbar-expand ">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/pagenosotrosinformacion">Nosotros</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#">Productos Afiliados</a>
+                </li>
+
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle-split" type="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+
+                      Servicios
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="">Asesorias</a></li>
+                      <li><a class="dropdown-item" href="Dermatologos.html">tratamientos</a></li>
+                      <li><a class="dropdown-item" href="#"></a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+
+
+        <div class="dropdown">
+          <button class="btn dropdown-toggle-split" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+            <img src="../Imagenes/usuarionuevo.png" alt="" id="imagen_usuario">
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/profile">Mi cuenta</a></li>
+            <li><a class="dropdown-item" href="/tuscitas">Citas Programadas</a></li>
+            <li><a class="dropdown-item" href="/login"> Inicio Sesion</a></li>
+            <li><a class="dropdown-item" href="logout"> Cerrar Sesion</a></li>
+
+          </ul>
+
+          <a href="/Formulario">
+            <button class="btn " type="button">Realiza tu cita!! </button>
+          </a>
+        </div>
+
+
+
+
+      </div>
+
+
+
+    </nav>
+
+  </div>
+
+
+
+  <form action="/updateProfile" method="POST" class="edit-profile-form">
+    <div class="form-group">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="us_nombre" value="{{us_nombre}}">
+    </div>
+    <div class="form-group">
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="us_correo" value="{{us_correo}}">
+    </div>
+    <div class="form-group">
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="us_password">
+    </div>
+    <div class="form-group">
+      <label for="passwordconfirm">Confirmar contraseña:</label>
+      <input type="password" id="passwordconfirm" name="us_passwordconfirm">
+    </div>
+    <div class="form-group">
+      <label for="address">Dirección:</label>
+      <input type="text" id="address" name="us_direccion" value="{{us_direccion}}">
+    </div>
+    <div class="form-group">
+      <label for="phone">Teléfono:</label>
+      <input type="tel" id="phone" name="us_telefono" value="{{us_telefono}}">
+    </div>
+    <div class="form-group">
+      <label for="document">Documento:</label>
+      <input type="text" id="document" name="us_documento" value="{{us_documento}}">
+    </div>
+    {{#if message}}
+    <p>{{message1}}</p>
+    {{/if}}
+    <input type="submit" value="Actualizar">
+    <br>
+    <a href="/profile" class="btn btn-secondary">volver</a>
+  </form>
+  
+</body>
+
+</html>

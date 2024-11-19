@@ -1,0 +1,155 @@
+* {
+
+
+    box-sizing: border-box;
+}
+
+.Img_1 {
+
+
+    width: 700px;
+    border-radius: 30px;
+
+
+
+
+}
+
+.titilo {
+
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Te {
+
+    background-color: aliceblue;
+}
+
+.Tratamiento_div {
+    text-align: center;
+
+    
+    margin-top: 10px;
+    padding-top: 50px;
+
+    display: flex;
+
+
+
+
+
+
+}
+
+.Texto_Tratamiento {
+    height: auto;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    
+    color: black;
+ 
+
+
+}
+
+
+
+.Cremas_Info {
+
+    display: flex;
+    box-sizing: border-box;
+}
+
+.Img_CremasFaciales {
+
+
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    margin: 50px;
+    position: relative;
+    box-shadow: 10px 10px 100px white;
+}
+
+.Img_Cremas {
+
+  
+    height: 700px;
+    width: 800px;
+
+}
+
+.texto_Explicacion {
+
+    width: 50%;
+    margin-top: 10%;
+    margin-right: 100px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+.titulo_Explicaicon {
+
+
+    font-size: 70px;
+    color: black;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 10px 10px 100px orange;
+
+}
+
+.Explicacion {
+
+    font-size: 23px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: black;
+
+}
+
+
+
+
+
+
+.Hidratantes_Info {
+
+    display: flex;
+    box-sizing: border-box;
+}
+
+.Img_Hidratantes_faciales {
+
+
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    margin: 50px;
+    position: relative;
+    box-shadow: 10px 10px 100px white;
+}
+
+.Img_Hidratantes {
+
+   
+    height: 700px;
+    width: 800px;
+
+}
+
+.texto_Explicacion_Hidra {
+
+    width: 50%;
+    margin-top: 10%;
+    margin-right: 10px;
+    margin-left: 40px;
+    text-align: center;
+
+
+}

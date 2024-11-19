@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanjeon-Registro</title>
+    <link rel="stylesheet" href="EstiloRegister.css">
+</head>
+
+<body>
+
+
+
+    <section>
+
+
+        <section class="Container">
+
+            <section class="Container_Register">
+
+                <div class="Img_Login_titulo">
+                    <h1 class="Titulo">Registro</h1>
+                    <p> <span>SI ES MENOR DE EDAD LLENE LOS CAMPOS CORREO, TELÉFONO Y DOCUMENTO CON LOS DATOS DE UN
+                            ADULTO
+                </div>
+
+                <section class="logo_Register">
+
+                    <div class="Registro">
+
+                        <form action="/auth/register" method="post">
+
+                            <div class="Linea1">
+                                <input type="text" name="name" id="name" placeholder="Nombre Completo" required>
+
+
+                                <input type="email" name="email" id="email" placeholder="Correo" required>
+
+                            </div>
+
+                            <br>
+
+                            <div class="Linea2">
+                                <input type="password" name="password" id="password" placeholder="Contraseña" required>
+
+
+                                <input type="password" name="passwordconfirm" id="passwordconfirm"
+                                    placeholder="Confirmar Contraseña" required>
+
+                            </div>
+
+
+                            <br>
+
+
+                            <div>
+
+                                <input type="text" name="address" id="address" placeholder="Direccion">
+
+
+                                <input type="text" name="phone" id="phone" placeholder="Telefono">
+
+                            </div>
+
+
+
+                            <br>
+
+                            <input type="text" name="document" id="document" placeholder="Documento">
+
+                            <br>
+
+                            <input type="submit" value="Registrarse" class="Btn_Register">
+                        </form>
+                        {{#if message}}
+                        <h4 class="alert alert-danger mt-4">{{message}}</h4>
+                        {{/if}}
+
+                    </div>
+
+                    <div>
+                        <img src="/LogoImg/logo wanjeon.jpg" alt="" srcset="" class="logo">
+                    </div>
+
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+
+            </section>
+
+
+        </section>
+    </section>
+
+
+
+</body>
+
+</html>

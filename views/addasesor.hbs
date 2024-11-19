@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanjeon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="EstilospagePrincipal.css">
+    <link rel="stylesheet" href="Scripts.js">
+    <link rel="stylesheet" href="Estilo_Cartas_Servicios.css">
+    <link rel="stylesheet" href="EstiloAddPerfil.css">
+
+    <div>
+        <nav class="navbar">
+
+            <div class="container-fluid justify-content-between">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="/pdcasesor">
+                            <img src="Imagenes/logo.png" alt="Logo" width="50" height="30"
+                                class="d-inline-block align-text-top">
+                            Wanjeon <strong>ASESOR PDC</strong>
+                        </a>
+                </nav>
+
+                <nav class="navbar navbar-expand ">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="/indexasesor">Clientes</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="/controlhora">Horarios</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <div class="dropdown">
+                                        <button class="btn dropdown-toggle-split" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+
+                                            Citas
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="/revisarcitas">Revisar tus citas</a></li>
+                                            <li><a class="dropdown-item" href="/pdcagendar">Agendar citas</a></li>
+                                            <li><a class="dropdown-item" href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+
+
+
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle-split" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+
+                        <img src="../Imagenes/usuarionuevo.png" alt="" id="imagen_usuario">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/profile">Mi cuenta</a></li>
+                        <li><a class="dropdown-item" href="/tuscitastrat">Citas Programadas</a></li>
+                        <li><a class="dropdown-item" href="logout"> Cerrar Sesion</a></li>
+                    </ul>
+
+                    <a href="/Formulario">
+                        <button class="btn " type="button">Realiza tu cita!! </button>
+                    </a>
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </nav>
+
+    </div>
+
+    {{#if tratamiento}}
+    <div class="container mt-4">
+        <div class="card border-secondary">
+            <div class="card-header">Editar Tramiento</div>
+            <div class="card-body">
+                <form action="/update" method="POST">
+                    <input id="id" name="id" value="{{tratamiento.id}}" hidden>
+                    <div class="mb-3">
+                        <label for="user" class="from-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" value="{{tratamiento.nombre}}" tabindex="1">
+                    </div>  
+                    <div class="mb-3">
+                        <label for="user" class="from-label">Descripcion</label>
+                        <input type="text" class="form-control" id="Descipcion" name="Descripcion" value="{{tratamiento.Descripcion}}" tabindex="1">
+                    </div> 
+                    <button type="submit" class="btn btn-primary" tabindex="5">Guardar</button>
+                    <a href="/controltrat" class="btn btn-secondary">Cancelar</a>
+                </form>
+            </div>
+        </div>
+    </div>
+{{/if}}
+
+<section>
+
+ <h1>Agregar Usuario</h1>
+
+    {{#if message}}
+    <p>{{message}}</p>
+    {{/if}}
+
+    <form action="/add" method="POST">
+      <label for="us_nombre">Nombre:</label><br />
+      <input type="text" id="us_nombre" name="us_nombre" /><br />
+
+      <label for="us_correo">Correo:</label><br />
+      <input type="email" id="us_correo" name="us_correo" /><br />
+
+      <label for="us_password">Contraseña:</label><br />
+      <input type="password" id="us_password" name="us_password" /><br />
+
+      <label for="us_passwordconfirm">Confirmar Contraseña:</label><br />
+      <input type="password" id="us_passwordconfirm" name="us_passwordconfirm" /><br />
+
+      <label for="us_direccion">Dirección:</label><br />
+      <input type="text" id="us_direccion" name="us_direccion" /><br />
+
+      <label for="us_telefono">Teléfono:</label><br />
+      <input type="tel" id="us_telefono" name="us_telefono" /><br />
+
+      <label for="us_documento">Documento:</label><br />
+      <input type="text" id="us_documento" name="us_documento" /><br />
+
+      <input type="submit" value="Agregar Usuario" />
+    </form>
+
+</section>
+   
+    <a href="/index">Volver al inicio</a>
+
+  </body>
+</html>

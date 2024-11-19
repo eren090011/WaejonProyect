@@ -1,0 +1,38 @@
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+    margin-top: 20px;
+  }
+  
+  .titulo {
+    margin-top: 30px;
+    color: #4594a5;
+    font-family: "HudsonNY";
+  }
+  
+  .parrafo1 {
+    margin: 20px;
+  }
+  .parrafo2 {
+    margin: 20px;
+  }
+
+
+
+  @font-face {
+    font-family: "HudsonNY";
+    src: url("/Fonts/Hudson-NY/Hudson-NY/Hudson\ NY.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }

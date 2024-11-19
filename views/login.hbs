@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanjeon</title>
+    <link rel="stylesheet" href="EstiloLogin.css">
+    <link rel="stylesheet" href="../EstiloLogin.css">
+</head>
+
+<body>
+
+    <section class="Container">
+
+        <section class="Container_Login">
+
+            <div class="Img_Login_titulo">
+                <a href="/"><img src="Imagenes/logo.png" alt="" class="Img_Logo"></a>
+                <h1 class="Titulo">Login</h1>
+
+            </div>
+
+
+            <form action="auth/login" method="POST">
+                <div class="Login_Container_General">
+                    <div class="InicioUser">
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="Email">
+
+
+                    </div>
+
+                    <br>
+                    <input type="password" id="password" name="password" placeholder="contraseña">
+                    <br>
+                    <a href="register" class="Register"> ¿No tienes Cuenta? </a>
+                    <br>
+
+
+                    <input type="submit" value="Iniciar Sesion " class="Btn_login">
+
+                </div>
+
+
+            </form>
+
+        </section>
+
+
+    </section>
+
+</body>
+
+</html>

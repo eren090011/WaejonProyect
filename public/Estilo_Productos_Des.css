@@ -1,0 +1,152 @@
+.Cremas_Info{
+
+    display: flex;
+    
+}
+.Img_CremasFaciales{
+
+    
+    height: 600px;
+    width: 650px;
+    border-radius: 10px;
+    margin: 40px;
+    position: relative;
+    box-shadow: 10px 10px 1000px #80bfb4;
+}
+.Img_Cremas{
+
+    background:  #4494a6;
+    height: 700px;
+    width: 750px;
+    
+}
+
+.texto_Explicacion{
+
+    width: 50%;
+    margin-top: 10%;
+    margin-right: 100px;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+.htitulo_Explicaicon{
+
+
+    font-size: 50px;
+    color: black;
+    text-shadow: 10px 10px 15px #80bfb4;
+
+}
+.Explicacion{
+
+    font-size: 20px;
+    
+
+    color: black;
+
+}
+.boton{
+
+    color: black;
+    background-color:  #4494a6;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+}
+.boton:hover{
+
+
+    cursor: pointer;
+}
+.boton:hover{
+
+    background:#80bfb4;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.Cremas{
+    margin-top: 300px;
+    
+}
+.Hidratantes{
+
+    margin-top: 300px;
+}
+.Mascarillas{
+
+
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+.Hidratantes_Info{
+
+    display: flex;
+    box-sizing: border-box;
+}
+.Img_Hidratantes_faciales{
+
+    
+    height: 600px;
+    width: 700px;
+    border-radius: 10px;
+    margin: 40px;
+    position: relative;
+    box-shadow: 10px 10px 1000px #80bfb4;
+}
+.Img_Hidratantes{
+
+    background:#4494a6;
+    height: 700px;
+    width: 800px;
+    
+}
+.texto_Explicacion_Hidra{
+
+    width: 50%;
+    margin-top: 10%;
+    margin-right: 10px;
+    margin-left: 40px;
+    text-align: center;
+    
+    
+}
+
+
+
+
+
+
+
+.Mascarilla_Info{
+
+    display: flex;
+    box-sizing: border-box;
+}
+.Img_Mascarillas{
+
+    
+    height: 600px;
+    width: 700px;
+    border-radius: 10px;
+    margin: 50px;
+    position: relative;
+    box-shadow: 10px 10px 1000px #80bfb4;
+}
+.Img_Mascarrilla{
+
+    background:#4494a6;
+    height: 700px;
+    width: 800px;
+    
+}

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Libre+Baskerville:ital@1&display=swap');
+
+
+.Cremas_Info {
+
+    display: flex;
+    box-sizing: border-box;
+}
+
+.Img_CremasFaciales {
+
+
+    height: 600px;
+    width: 700px;
+    border-radius: 10px;
+    margin: 50px;
+    position: relative;
+    box-shadow: 10px 10px 100px white;
+}
+
+.Img_Cremas {
+
+    background: #ffeac0;
+    height: 700px;
+    width: 800px;
+
+}
+
+.texto_Explicacion {
+
+    width: 50%;
+    margin-top: 10%;
+    margin-right: 100px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+.titulo_Explicaicon {
+
+
+    font-size: 70px;
+    color: black;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 10px 10px 100px orange;
+
+}
+
+.Explicacion {
+
+    font-size: 23px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: black;
+
+}
+
+.boton {
+
+    color: black;
+    background-color: #ffeac0;
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 2px;
+}
+
+.boton:hover {
+
+
+    cursor: pointer;
+}
+
+.boton:hover {
+
+    background: rgb(110, 238, 238);
+    color: black;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.Cremas {
+    margin-top: 300px;
+
+}
+
+.Hidratantes {
+
+    margin-top: 300px;
+}
+
+.Mascarillas {
+
+
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+.Hidratantes_Info {
+
+    display: flex;
+    box-sizing: border-box;
+}
+
+.Img_Hidratantes_faciales {
+
+
+    height: 600px;
+    width: 700px;
+    border-radius: 10px;
+    margin: 50px;
+    position: relative;
+    box-shadow: 10px 10px 100px white;
+}
+
+.Img_Hidratantes {
+
+    background: rgb(110, 238, 238);
+    height: 700px;
+    width: 800px;
+
+}
+
+.texto_Explicacion_Hidra {
+
+    width: 50%;
+    margin-top: 10%;
+    margin-right: 10px;
+    margin-left: 40px;
+    text-align: center;
+
+
+}
+
+.Mascarilla_Info {
+
+    display: flex;
+    box-sizing: border-box;
+}
+
+.Img_Mascarillas {
+
+
+    height: 600px;
+    width: 700px;
+    border-radius: 10px;
+    margin: 50px;
+    position: relative;
+    box-shadow: 10px 10px 100px white;
+}
+
+.Img_Mascarrilla {
+
+    background: #ffeac0;
+    height: 700px;
+    width: 800px;
+
+}

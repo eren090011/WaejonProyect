@@ -1,0 +1,145 @@
+.Container {
+
+    width: 700px;
+    height: 800px;
+
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: #80bfb4;
+
+
+
+}
+
+.Container_Login {
+
+    background-color: white;
+    border-radius: 2px;
+    height: 500px;
+    width: 500px;
+    margin-top: 20%;
+    box-shadow: -1px 6px 18px 0px darkcyan;
+
+
+
+
+}
+
+.Login_Container_General {
+
+
+    width: 300px;
+    height: 250px;
+    align-items: center;
+    margin-left: 100px;
+    box-shadow: -1px 6px 18px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+
+}
+
+#username  {
+
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: gainsboro;
+    margin-top: 40px;
+
+}
+
+#password{
+
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: gainsboro;
+    margin-top: 1px;
+    
+
+}
+
+#email{
+
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: gainsboro;
+    margin-top: 1px;
+    
+
+}
+
+.InicioUser {
+
+
+    margin-bottom: 5px;
+}
+
+.Img_Login_titulo{
+
+
+ align-items: center;
+}
+
+.Titulo {
+
+
+    font-size: 40px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-family: "HudsonNY", sans-serif;
+
+}
+.Img_Logo{
+
+    width: 100px;
+    margin-top: 20px;
+
+}
+.Btn_login{
+
+
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    color: black;
+    background-color: #4594a5;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.Btn_login:hover{
+
+    cursor: pointer;
+
+    background-color: #80bfb4;
+
+
+}
+.Register{
+
+    font-size: 20px;
+    text-decoration: none;
+    color: #4594a5;
+    
+}
+
+
+@font-face {
+    font-family: "HudsonNY";
+    src: url("/Fonts/Hudson-NY/Hudson-NY/Hudson\ NY.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }

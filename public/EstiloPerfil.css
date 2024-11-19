@@ -1,0 +1,121 @@
+.Container_General {
+
+
+    display: flex;
+    justify-content: center
+
+}
+
+.Titulo_Pef{
+
+    text-align: center;
+    font-family: "HudsonNY", sans-serif;
+}
+
+.Con{
+
+
+    background-color: white;
+    width: 400px;
+}
+.Container_ImgPerfil {
+
+
+    background-color: #4594a5;
+    box-shadow: 10px 10px 40px #80bfb4;
+
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+
+    text-align: center;
+    align-items: center;
+
+
+
+}
+.Im_perfi_Cont{
+
+    background-color: white;
+    width: 70%;
+
+}
+
+.Foto_Perf {
+
+    width: 200px;
+    align-items: center;
+    margin: 50px;
+    margin-bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+
+
+
+}
+.Nom_Perf{
+
+    
+    border-radius: 10px; 
+}
+
+.Info_Perfil {
+
+    border-radius: 5px;
+    border: solid;
+    background-color: white;
+    width: auto;
+}
+
+.Ul_Perfil {
+
+
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+
+}
+
+.Ul_Perfil li {
+
+
+    margin: 20px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+.Edit_Perf{
+
+
+
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    
+}   
+
+.Edit_Perf:hover{
+
+    cursor: pointer;
+
+    background-color: #80bfb4;
+}
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "HudsonNY";
+    src: url("/Fonts/Hudson-NY/Hudson-NY/Hudson\ NY.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }

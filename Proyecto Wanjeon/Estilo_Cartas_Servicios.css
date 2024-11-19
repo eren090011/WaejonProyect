@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Libre+Baskerville:ital@1&display=swap');
+
+
+
+.carta {
+
+    height: 320px;
+    margin: 30px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 40px #ffeac0;
+    position: relative;
+
+
+}
+
+.imagen_Carta {
+
+
+    height: 320px;
+    width: 400px;
+    border-radius: 6px;
+}
+
+.contenedor_Servicios {
+
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+
+    height: 50px;
+    width: 400px;
+    padding: 6px;
+
+    position: absolute;
+    bottom: 0px;
+    transition: 0.6s;
+
+}
+
+.Texto_carta{
+
+    font-size: 15px;
+    margin: 10px;
+    visibility: hidden;
+    opacity: 0;
+    color: black;
+    
+    font-family: 'Alkatra', cursive;
+
+
+}
+
+.Titulo_Carta {
+
+    font-size: 25px;
+    color: black;
+    font-family: 'Alkatra', cursive;
+
+}
+
+.carta:hover {
+
+
+    cursor: pointer;
+}
+
+.carta:hover .intro {
+
+    height: 200px;
+    bottom: 1px;
+    background: rgb(49, 230, 230);
+}
+
+.carta:hover .Texto_carta {
+
+    opacity: 1;
+    visibility: visible;
+}
+
+.carta:hover .imagen_Carta {
+
+    transform: scale(1.1) rotate(1deg);
+
+
+
+
+}

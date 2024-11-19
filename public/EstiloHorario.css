@@ -1,0 +1,15 @@
+.cajahorario{
+    background-color: #ffffff;
+  height: 100px;
+  width: 200px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 2px;
+  border: 2px solid #4494A6;
+}
+.btnagendar{
+    background-color: #4494A6;
+    color:white;
+    border-radius: 2px;
+    border: 2px solid #4494A6;
+}

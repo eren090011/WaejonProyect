@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Edu+NSW+ACT+Foundation&family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Libre+Baskerville:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Edu+NSW+ACT+Foundation&family=Libre+Baskerville&display=swap');
+
+* {
+
+    box-sizing: border-box;
+
+
+
+}
+body{
+
+    background: #f2f2f2;
+}
+
+.container-fluid {
+
+    height: 60px;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+.container-fluid {
+
+
+    height: 30%;
+}
+
+.img-fluid_Nosotros {
+
+    width: 300%;
+    height: 500px;
+
+
+}
+
+.Titulo_ServicioGeneral {
+
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-align: center;
+    margin: 50px;
+    
+    font-size: 60px;
+    padding: 10px;
+    text-shadow: 20px 40px 40px 2000px red;
+
+}
+
+.card {
+
+    box-shadow: 6px 6px 4px 2px rgb(152, 151, 151);
+}
+
+.carouselExampleIndicators {
+
+
+    width: auto;
+    height: auto;
+}
+
+.img-fluid_Vision {
+
+    width: 300%;
+}
+
+
+#servicio_Tratamiento {
+
+
+    background-image: url(Imagenes/Serviciosimg/tratamientos-esteticos.jpg);
+    width: 1000px;
+
+}
+
+#card_servicios {
+
+
+    width: auto;
+    padding: 1px;
+    padding-top: 20px;
+
+
+}
+
+.carousel-inner {
+
+    height: 500px;
+    display: flex;
+}
+
+.logos_Provedores_Eu {
+    width: 200px;
+    margin-top: 30px;
+    height: 100px
+}
+
+.logos_Provedores {
+
+    width: 200px;
+    height: 120px;
+    margin: 10px;
+
+
+}
+
+.marco {
+
+    width: 50%;
+
+}
+
+#misionimg {
+
+
+    width: 400px;
+}
+
+.imgabout {
+
+    width: 100%;
+    display: flex;
+}
+
+.About_Container {
+
+    background-color: #fcdfdf;
+    display: flex;
+}
+
+.About_text {
+    text-align: center;
+
+
+}
+
+.col {
+
+    padding-left: 0px;
+    width: 500px;
+}
+
+.About_text h2 {
+
+    color: white;
+
+}
+
+.card {
+
+    --bs-card-bg: #ffffff;
+    --bs-card-border-color: none;
+    --bs-card-color: rgb(36, 35, 35);
+    --bs-card-title-color: rgb(0, 0, 0);
+
+}
+
+.servicios {
+
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+
+
+
+
+}
+
+#columnasservices {
+
+    margin: 10px;
+    padding: 10px;
+}
+
+#containerServices {
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.card-img-top {
+
+    width: 400px;
+    height: 200px;
+}
+
+.Servicios_General {
+
+
+    background-color: rgb(255, 255, 255);
+}

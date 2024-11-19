@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  max-width: 80%;
+  margin-top: 50px;
+  /* overflow: auto; */
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: #4499a6;
+  margin-top: 20px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 60%;
+  background-color: white;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.text{
+  width: 50%;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.todo {
+  background-color: #f2f2f2;
+}
+
+.foto {
+  width: 50%;
+  text-align: center;
+}
+
+.foto img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-control-prev-icon{
+  display: flex;
+  align-items: center;
+  color: #1f8c8c;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.flechas:hover {
+  color: #1f8c8c;
+}
+
+.fi-rr-angle-left {
+  margin-right: 10px;
+}
+
+.fi-rr-angle-right {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .carrusel {
+    flex-direction: column;
+  }
+  .card {
+    flex-direction: column;
+  }
+  .text,
+  .foto {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .foto img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.testimonio {
+    display: none;
+}
+
+.activo {
+    display: block;
+}
+
+
+/*HUDSON NY*/
+
+@font-face {
+  font-family: "HudsonNY";
+  src: url("/Fonts/Hudson-NY/Hudson-NY/Hudson\ NY.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "HudsonNY", sans-serif;
+}

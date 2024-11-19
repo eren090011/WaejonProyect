@@ -1,0 +1,102 @@
+
+
+.Titulo_Catalogo {
+
+
+
+    margin: 20px;
+    text-align: center;
+    text-shadow: 5px 5px 20px aliceblue;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Contenedor_Catalogos {
+
+
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+
+.AsesorTotal {
+
+    background-color: whitesmoke;
+    height: auto;
+    margin-bottom: 100px;
+    border: solid black;
+    border-radius: 10px;
+    display: flex;
+}
+
+.Nombre_tratamiento{
+
+    font-size: 30px;
+    margin: 10px;
+    text-shadow: 5px 5px 20px  #4594a5;
+    margin-bottom: 20px;
+    font-family: "HudsonNY", sans-serif;
+   
+
+
+}
+.boton_Solit{
+
+    color: black;
+    background-color: #4594a5;
+    border: none;
+    margin: 2px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.IMG_AND_TEX {
+
+
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Courier New", Courier, monospace;
+
+
+}
+.boton_Solit:hover{
+
+    cursor: pointer;
+}
+.boton_Solit:hover{
+
+    background-color:#80bfb4;
+    transform: scale(1.1);
+}
+.Img_Asesor{
+
+    
+    
+
+    padding-right: 100px;
+}
+
+#Img_Asesorpersonla{
+
+    margin: 10px;
+    width: 300px;
+}
+
+
+
+
+
+@font-face {
+    font-family: "HudsonNY";
+    src: url("/Fonts/Hudson-NY/Hudson-NY/Hudson\ NY.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
